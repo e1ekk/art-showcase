@@ -20,12 +20,12 @@ img{
 }
 img:hover, input[type="image"]{transition: 0.5s;}
 
-#img1, #img2, #img4, #img8{
+#img1, #img2, #img4, #img7{
     -webkit-box-shadow:0px 0px 0px 0px red;
     -moz-box-shadow: 0px 0px 0px 0px red;
     box-shadow: 0px 0px 0px 0px red;
 }
-#img1:hover, #img2:hover, #img4:hover, #img8:hover{
+#img1:hover, #img2:hover, #img4:hover, #img7:hover{
     -webkit-box-shadow:0px 0px 100px 0px red;
     -moz-box-shadow: 0px 0px 100px 0px red;
     box-shadow: 0px 0px 100px 0px red;
@@ -41,84 +41,84 @@ img:hover, input[type="image"]{transition: 0.5s;}
     box-shadow: 0px 0px 100px 0px #a09682;
 }
 #img5{
-    -webkit-box-shadow:0px 0px 0px 0px #ffc4ed;
-    -moz-box-shadow: 0px 0px 0px 0px #ffc4ed;
-    box-shadow: 0px 0px 0px 0px #ffc4ed;
-}
-#img5:hover{
-    -webkit-box-shadow:0px 0px 100px 0px #ffc4ed;
-    -moz-box-shadow: 0px 0px 100px 0px #ffc4ed;
-    box-shadow: 0px 0px 100px 0px #ffc4ed;
-}
-#img6{
     -webkit-box-shadow:0px 0px 100px 0px #d6aa74;
     -moz-box-shadow: 0px 0px 100px 0px #d6aa74;
     box-shadow: 0px 0px 0px 0px #d6aa74;
 }
-#img6:hover{
+#img5:hover{
     -webkit-box-shadow:0px 0px 100px 0px #d6aa74;
     -moz-box-shadow: 0px 0px 100px 0px #d6aa74;
     box-shadow: 0px 0px 100px 0px #d6aa74;
 }
-#img7{
+#img6{
     -webkit-box-shadow:0px 0px 100px 0px #7b9ccf;
     -moz-box-shadow: 0px 0px 100px 0px #7b9ccf;
     box-shadow: 0px 0px 0px 0px #7b9ccf;
 }
-#img7:hover{
+#img6:hover{
     -webkit-box-shadow:0px 0px 100px 0px #7b9ccf;
     -moz-box-shadow: 0px 0px 100px 0px #7b9ccf;
     box-shadow: 0px 0px 100px 0px #7b9ccf;
 }
-#img9{
+#img8{
     -webkit-box-shadow:0px 0px 100px 0px #9f6c39;
     -moz-box-shadow: 0px 0px 100px 0px #9f6c39;
     box-shadow: 0px 0px 0px 0px #9f6c39;
 }
-#img9:hover{
+#img8:hover{
     -webkit-box-shadow:0px 0px 100px 0px #9f6c39;
     -moz-box-shadow: 0px 0px 100px 0px #9f6c39;
     box-shadow: 0px 0px 100px 0px #9f6c39;
 }
-#img10{
+#img9{
     -webkit-box-shadow:0px 0px 100px 0px #2d80e0;
     -moz-box-shadow: 0px 0px 100px 0px #2d80e0;
     box-shadow: 0px 0px 0px 0px #2d80e0;
 }
-#img10:hover{
+#img9:hover{
     -webkit-box-shadow:0px 0px 100px 0px #2d80e0;
     -moz-box-shadow: 0px 0px 100px 0px #2d80e0;
     box-shadow: 0px 0px 100px 0px #2d80e0;
 }
-#img11{
+#img10{
     -webkit-box-shadow:0px 0px 100px 0px #ff5757;
     -moz-box-shadow: 0px 0px 100px 0px #ff5757;
     box-shadow: 0px 0px 0px 0px #ff5757;
 }
-#img11:hover{
+#img10:hover{
     -webkit-box-shadow:0px 0px 100px 0px #ff5757;
     -moz-box-shadow: 0px 0px 100px 0px #ff5757;
     box-shadow: 0px 0px 100px 0px #ff5757;
 }
-#img12{
+#img11{
     -webkit-box-shadow:0px 0px 100px 0px #4eefff;
     -moz-box-shadow: 0px 0px 100px 0px #4eefff;
     box-shadow: 0px 0px 0px 0px #4eefff;
 }
-#img12:hover{
+#img11:hover{
     -webkit-box-shadow:0px 0px 100px 0px #4eefff;
     -moz-box-shadow: 0px 0px 100px 0px #4eefff;
     box-shadow: 0px 0px 100px 0px #4eefff;
 }
-#img13{
+#img12{
     -webkit-box-shadow:0px 0px 100px 0px #b69e85;
     -moz-box-shadow: 0px 0px 100px 0px #b69e85;
     box-shadow: 0px 0px 0px 0px #b69e85;
 }
-#img13:hover{
+#img12:hover{
     -webkit-box-shadow:0px 0px 100px 0px #b69e85;
     -moz-box-shadow: 0px 0px 100px 0px #b69e85;
     box-shadow: 0px 0px 100px 0px #b69e85;
+}
+#img13{
+    -webkit-box-shadow:0px 0px 100px 0px white;
+    -moz-box-shadow: 0px 0px 100px 0px white;
+    box-shadow: 0px 0px 0px 0px white;
+}
+#img13:hover{
+    -webkit-box-shadow:0px 0px 100px 0px white;
+    -moz-box-shadow: 0px 0px 100px 0px white;
+    box-shadow: 0px 0px 100px 0px white;
 }
 
 #date{
