@@ -32,7 +32,7 @@ var setlanguage = localStorage.getItem("language");
 var languages = JSON.parse(`{"en":[{"fullscreen":"Open in fullscreen", "en":"Change language to English", "pl":"Change language to Polish", "featured":"Featured", "allart":"All art", "desc1":"My very first creation which started the whole thing. The inspiration came from <a href='https://www.reddit.com/r/ForzaHorizon/comments/1attra8/d_b_s/' target='_blank'>this</a> Reddit post. Off to a good start.", "desc5":"Got inspired by <a href='https://www.reddit.com/r/ForzaHorizon/comments/1fvyhpw/classic/' target='_blank'>this</a> Reddit post.", "desc7":"The map is <a href='https://www.youtube.com/watch?v=OJbvLW8ICUo' target='_blank'>Hoshido City</a>. There's also a refreshed version which released 4 days later called <a href='https://www.youtube.com/watch?v=9iz3FcQ1zyE' target='_blank'>Hoshido City Redux</a>.", "desc8":"Made for Halloween.", "desc9":"Took the photos with a random guy driving around the race track."}], "pl":[{"fullscreen":"Otwórz w widoku pełnoekranowym", "en":"Zmień język na angielski", "pl":"Zmień język na polski", "featured":"Wyróżnione", "allart":"Wszystkie prace", "desc1":"Moja pierwsza kreacja, od której to wszystko się zaczęło. Inspiracja wzięła się z <a href='https://www.reddit.com/r/ForzaHorizon/comments/1attra8/d_b_s/' target='_blank'>tego</a> posta na Reddicie. Na dobry początek.", "desc5":"Zainspirowałem się <a href='https://www.reddit.com/r/ForzaHorizon/comments/1fvyhpw/classic/' target='_blank'>tym</a> postem na Reddicie.", "desc7":"Mapa nazywa się <a href='https://www.youtube.com/watch?v=OJbvLW8ICUo' target='_blank'>Hoshido City</a>. Istnieje też odświeżona wersja, która została wydana 4 dni później, a nazywa się <a href='https://www.youtube.com/watch?v=9iz3FcQ1zyE' target='_blank'>Hoshido City Redux</a>.", "desc8":"Zrobione z okazji Halloween.", "desc9":"Zdjęcia zrobiłem z losową osobą, która jeździła wokół toru."}]}`);
 if(setlanguage == "en"){
     var fullscreen = languages.en[0].fullscreen;
-    for(var i=13; i>0; i--) document.getElementsByName("fullscreenjson")[i].title=fullscreen;
+    for(var i=16; i>0; i--) document.getElementsByClassName("fullscreenjson")[i].title=fullscreen;
     var en = languages.en[0].en;
     document.getElementById("enjson").title=en;
     var pl = languages.en[0].pl;
@@ -54,7 +54,7 @@ if(setlanguage == "en"){
 }
 if(setlanguage == "pl"){
     var fullscreen = languages.pl[0].fullscreen;
-    for(var i=13; i>=0; i--) document.getElementsByName("fullscreenjson")[i].title=fullscreen;
+    for(var i=16; i>=0; i--) document.getElementsByClassName("fullscreenjson")[i].title=fullscreen;
     var en = languages.pl[0].en;
     document.getElementById("enjson").title=en;
     var pl = languages.pl[0].pl;
