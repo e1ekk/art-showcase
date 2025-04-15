@@ -34,7 +34,6 @@ a{
     transition: color 0.5s;
     color: #ff5e33;
     text-decoration: none;
-    display: inline-block;
 }
 a:hover{
     color: #ff3086;
@@ -111,7 +110,10 @@ hr{
 .fullscreenjson:hover #imgblur{
     filter: blur(40px) brightness(2);
 }
-.fullscreenjson{position: relative;}
+.fullscreenjson{
+    position: relative;
+    display: inline-block;
+}
 
 #fullscreen{
     position: absolute;
