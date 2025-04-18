@@ -129,7 +129,6 @@ hr{
 a:hover #fullscreen{display: block;}
 
 #more{
-    text-align: right;
     cursor: pointer;
     user-select: none;
 }
@@ -140,10 +139,12 @@ a:hover #fullscreen{display: block;}
     height: 0;
     opacity: 0;
     transition: 0.5s ease-in-out;
+    pointer-events: none;
 }
 #morelist.open{
     height: 20px;
     opacity: 1;
+    pointer-events: all;
 }
 
 @media only screen and (max-device-width: 600px){
