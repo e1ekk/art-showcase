@@ -117,7 +117,7 @@ hr{
     font-size: 500%;
     color: white;
     display: none;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 0 0 5px black;
 }
 
 a:hover #fullscreen{display: block;}
@@ -184,7 +184,5 @@ a:hover #fullscreen{display: block;}
         top: 1%;
     }
 
-    img[src="images/fh5.png"], img[src="images/fh4.png"], img[src="images/logo.png"]{zoom: 0.5;}
-
-    #logoheight{height: 75px !important;}
+    img[src="images/fh5.png"], img[src="images/fh4.png"], img[src="images/logo.png"], #logoheight{zoom: 0.5 !important;}
 }
