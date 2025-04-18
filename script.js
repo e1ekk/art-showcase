@@ -63,15 +63,15 @@ function more(){
     var morelist = document.getElementById("morelist");
     var moreicon = document.getElementById("moreicon");
     if(moreopen == false){
-        morelist.hidden = false;
+        morelist.classList.add("open");
         moreopen = true;
-        moreicon.classList.remove("fa-solid", "fa-chevron-down");
-        moreicon.classList.add("fa-solid", "fa-chevron-up");
+        moreicon.classList.remove("fa-chevron-down");
+        moreicon.classList.add("fa-chevron-up");
     }
     else{
-        morelist.hidden = true;
+        morelist.classList.remove("open");
         moreopen = false;
-        moreicon.classList.remove("fa-solid", "fa-chevron-up");
-        moreicon.classList.add("fa-solid", "fa-chevron-down");
+        moreicon.classList.remove("fa-chevron-up");
+        moreicon.classList.add("fa-chevron-down");
     }
 }

@@ -105,7 +105,7 @@ hr{
     position: absolute;
     filter: blur(0px) brightness(2);
     z-index: -1;
-    transition: filter 0.5s;
+    transition: filter 0.5s ease-in-out;
 }
 .fullscreenjson:hover #imgblur{
     filter: blur(40px) brightness(2);
@@ -135,7 +135,16 @@ a:hover #fullscreen{display: block;}
 }
 #more:hover{font-weight: bold;}
 
-#morelist{text-align: right;}
+#morelist{
+    text-align: right;
+    height: 0;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+#morelist.open{
+    height: 20px;
+    opacity: 1;
+}
 
 @media only screen and (max-device-width: 600px){
     body{
