@@ -178,9 +178,13 @@ a:hover #fullscreen{display: block;}
         margin-left: 3%;
         margin-right: 3%;
     }
+
     #menuframe{ 
         right: 4%;
         top: 1%;
-        zoom: 2;
     }
+
+    img[src="images/fh5.png"], img[src="images/fh4.png"], img[src="images/logo.png"]{zoom: 0.5;}
+
+    #logoheight{height: 75px !important;}
 }
