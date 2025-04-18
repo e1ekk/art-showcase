@@ -11,14 +11,21 @@
     <p style="text-align: center;"><img src="images/logo.png" id="logo" style="height: 150px; position: fixed; margin-left: -75px;"></p>
     <hr style="height: 150px;">
 
-    <p id="flags">
-        <input id="enjson" type="image" src="images/en.png" height="25px" onclick="seten()" title="Change language to English"></input> <input id="pljson" type="image" src="images/pl.png" height="25px" onclick="setpl()" title="Change language to Polish"></input>
-    </p>
-
-    <p style="text-align: right;"><span id="more" onclick="more()"><span id="morejson" style="color: white;">My other projects</span> <i class="fa-solid fa-chevron-down" style="color: white;" id="moreicon"></i></span></p>
-    <p id="morelist">
-        <a href="https://e1ekk.github.io/fh5-randomizer/">Forza Horizon 5 Race Route Randomizer</a>
-    </p>
+    <div id="menuframe">
+        <div style="text-align: right;"><span id="more" onclick="more()"><i class="fa-solid fa-chevron-down" id="moreicon"></i></span></div>
+        <div id="menu">
+            <div>
+                <span id="languagejson">Language</span><br><br>
+                <input id="enjson" type="image" src="images/en.png" height="25px" onclick="seten()" title="Change language to English"></input> <input id="pljson" type="image" src="images/pl.png" height="25px" onclick="setpl()" title="Change language to Polish"></input>
+            </div>
+            <br><br>
+            <div>
+                <span id="morejson">My other projects</span><br><br>
+                <a href="https://e1ekk.github.io/fh5-randomizer/">Forza Horizon 5 Race Route Randomizer</a>
+            </div>
+        </div>
+    </div>
+    <div id="menuclose" onclick="more()"></div>
 
     <h1><span id="featured"><span id="featuredjson">Featured</span> (14.04.2025)</span></h1>
     <div id="bg" style="background-image: url('images/porsche\ bg.png');">
