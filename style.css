@@ -23,7 +23,7 @@ img{
     transition: box-shadow 0.5s;
 }
 
-input[type="image"]:hover{transition: 0.5s;}
+input[type="image"]{transition: 0.5s;}
 
 #date{
     color: #d6d6d6;
@@ -125,6 +125,7 @@ a:hover #fullscreen{display: block;}
 #more{
     cursor: pointer;
     user-select: none;
+    pointer-events: all;
 }
 #more:hover{font-weight: bold;}
 
@@ -158,6 +159,7 @@ a:hover #fullscreen{display: block;}
     right: 13%;
     top: 3%;
     z-index: 2;
+    pointer-events: none;
 }
 
 #menuclose{
