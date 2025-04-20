@@ -2,6 +2,7 @@
     font-family: "bahnschrift";
     color: #d6d6d6;
     scrollbar-color: #29343f #001b1e;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body{
