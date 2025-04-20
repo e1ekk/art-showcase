@@ -68,15 +68,15 @@ function more(){
     if(moreopen == false){
         menu.classList.add("open");
         menuclose.classList.add("open");
+        moreicon.classList.add("open");
+        moreicon.classList.remove("closed");
         moreopen = true;
-        moreicon.classList.remove("fa-chevron-down");
-        moreicon.classList.add("fa-chevron-up");
     }
     else{
         menu.classList.remove("open");
         menuclose.classList.remove("open");
+        moreicon.classList.remove("open");
+        moreicon.classList.add("closed");
         moreopen = false;
-        moreicon.classList.remove("fa-chevron-up");
-        moreicon.classList.add("fa-chevron-down");
     }
 }
