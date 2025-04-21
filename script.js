@@ -1,13 +1,9 @@
-var languagevalue;
-
 function setpl(){
-    languagevalue = "pl";
-    localStorage.setItem("language", languagevalue);
+    localStorage.setItem("language", "pl");
     location.reload();
 }
 function seten(){
-    languagevalue = "en";
-    localStorage.setItem("language", languagevalue);
+    localStorage.setItem("language", "en");
     location.reload();
 }
 
