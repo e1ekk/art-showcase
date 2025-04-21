@@ -9,6 +9,10 @@
     font-family: Bahnschrift;
     src: url('fonts/Bahnschrift.ttf');
 }
+@font-face{
+    font-family: Samsung;
+    src: url('fonts/samsungsharpsans-medium.otf');
+}
 
 body{
     background-color: #001b1e;
@@ -61,13 +65,9 @@ a img{cursor: pointer;}
 }
 
 #featuredimage{
-    -webkit-box-shadow:0px 0px 150px 0px #cc6713;
-    -moz-box-shadow: 0px 0px 150px 0px #cc6713;
     box-shadow: 0px 0px 150px 0px #cc6713;
 }
 #featuredimage:hover, p i:hover + #featuredimage{
-    -webkit-box-shadow:0px 0px 150px 0px #ffdd5d;
-    -moz-box-shadow: 0px 0px 150px 0px #ffdd5d;
     box-shadow: 0px 0px 150px 0px #ffdd5d;
 }
 
@@ -83,8 +83,6 @@ hr{
 }
 
 #enjson:hover, #pljson:hover{
-    -webkit-box-shadow:0px 0px 25px 0px white;
-    -moz-box-shadow: 0px 0px 25px 0px white;
     box-shadow: 0px 0px 10px 0px white;
 }
 
@@ -180,6 +178,16 @@ a:hover #fullscreen{display: block;}
     display: block;
 }
 
+#title{
+    text-align: center;
+    font-family: Samsung;
+    background: linear-gradient(90deg, #ff5e33, #ff3086);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 @media only screen and (max-device-width: 600px){
     body{
         margin-left: 3%;
@@ -191,5 +199,5 @@ a:hover #fullscreen{display: block;}
         top: 1%;
     }
 
-    img[src="images/fh5.png"], img[src="images/fh4.png"], img[src="images/logo.png"], #logoheight{zoom: 0.5 !important;}
+    img[src="images/fh5.png"], img[src="images/fh4.png"]{zoom: 0.5;}
 }
