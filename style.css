@@ -5,6 +5,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+@font-face{
+    font-family: Bahnschrift;
+    src: url('fonts/Bahnschrift.ttf');
+}
+
 body{
     background-color: #001b1e;
     margin-top: 3%;
@@ -40,11 +45,6 @@ a:not(a[class="fullscreenjson"]){
 }
 a:hover{text-shadow: 0 0 10px #ff3086;}
 a img{cursor: pointer;}
-
-@font-face{
-    font-family: Bahnschrift;
-    src: url('fonts/Bahnschrift.ttf');
-}
 
 #bg{
     padding: 10px;
@@ -150,13 +150,13 @@ a:hover #fullscreen{display: block;}
 #moreicon:hover{text-shadow: 0 0 10px white;}
 #moreicon.open{animation: arropen 0.5s ease-in-out forwards;}
 @keyframes arropen{
-    from{transform: rotate(0deg);}
-    to{transform: rotate(180deg);}
+    from{transform: rotateX(0deg);}
+    to{transform: rotateX(180deg);}
 }
 #moreicon.closed{animation: arrclose 0.5s ease-in-out forwards;}
 @keyframes arrclose{
-    from{transform: rotate(180deg);}
-    to{transform: rotate(0deg);}
+    from{transform: rotateX(180deg);}
+    to{transform: rotateX(0deg);}
 }
 
 #menuframe{
