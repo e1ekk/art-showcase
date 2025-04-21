@@ -199,5 +199,5 @@ a:hover #fullscreen{display: block;}
         top: 1%;
     }
 
-    img[src="images/fh5.png"], img[src="images/fh4.png"]{zoom: 0.5;}
+    img[src="images/fh5.png"], img[src="images/fh4.png"]{height: 1.5em !important;}
 }
