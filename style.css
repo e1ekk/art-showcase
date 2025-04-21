@@ -22,7 +22,7 @@ body{
     margin-right: 12%;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, #languagejson, #morejson{
     color: white;
 }
 
@@ -135,7 +135,7 @@ a:hover #fullscreen{display: block;}
     backdrop-filter: blur(0.5em);
 }
 #menu.open{
-    height: 10.5em;
+    height: 15em;
     opacity: 1;
     pointer-events: all;
 }
