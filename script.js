@@ -58,6 +58,9 @@ function more(){
     }
 }
 
-const last = document.getElementsByClassName("last")[0];
-const clone = last.cloneNode(true);
+const last = document.querySelectorAll(".imageDiv");
+const clone = last[last.length -1].cloneNode(true);
 document.getElementsByClassName("featuredFrame")[0].appendChild(clone);
+
+const lastDate = document.querySelectorAll(".date");
+document.getElementById("featuredDate").innerHTML = lastDate[lastDate.length -1].innerText;

@@ -35,7 +35,7 @@ img{
 
 input[type="image"]{transition: 0.3s;}
 
-#date{
+.date{
     color: #d6d6d6;
     font-size: 80%;
 }
@@ -58,13 +58,13 @@ a img{cursor: pointer;}
     border-radius: 1.5em;
 }
 
-#featured, .featuredFrame .last h2{
+#featured, .featuredFrame .imageDiv h2{
     background: linear-gradient(0deg, #cc6713, #ffdd5d);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
-.featuredFrame .last h2 #date{display: none;}
+.featuredFrame .imageDiv h2 .date{display: none;}
 
 hr{
     height: 1em;
