@@ -64,13 +64,6 @@ a img{cursor: pointer;}
     -webkit-background-clip: text;
 }
 
-#featuredimage{
-    box-shadow: 0 0 9em 0 #cc6713;
-}
-#featuredimage:hover, p i:hover + #featuredimage{
-    box-shadow: 0 0 9em 0 #ffdd5d;
-}
-
 #featuredname{
     background: linear-gradient(0deg, #cc6713, #ffdd5d);
     -webkit-text-fill-color: transparent;
