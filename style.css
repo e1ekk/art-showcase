@@ -55,20 +55,16 @@ a img{cursor: pointer;}
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: right;
-    border-radius: 0 1.5em 1.5em 0;
+    border-radius: 1.5em;
 }
 
-#featured{
+#featured, .featuredFrame .last h2{
     background: linear-gradient(0deg, #cc6713, #ffdd5d);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
-#featuredname{
-    background: linear-gradient(0deg, #cc6713, #ffdd5d);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
+.featuredFrame .last h2 #date{display: none;}
 
 hr{
     height: 1em;

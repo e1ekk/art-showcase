@@ -22,8 +22,7 @@ if(setlanguage == "en"){
     document.getElementById("allartjson").innerHTML = languages.en[0].allart;
     document.getElementById("morejson").innerHTML = languages.en[0].more;
     document.getElementById("languagejson").innerHTML = languages.en[0].language;
-    for (var i = elements.length-1; i > 0 ; i--) document.getElementById(`desc${i}json`).innerHTML = languages.en[0][`desc${i}`];
-    document.getElementById("descfeatured").innerHTML = languages.en[0][`desc${elements.length-1}`];
+    for (var i = elements.length; i > 0 ; i--) document.getElementById(`desc${i}json`).innerHTML = languages.en[0][`desc${i}`];
 }
 if(setlanguage == "pl"){
     var fullscreen = languages.pl[0].fullscreen;
@@ -35,8 +34,7 @@ if(setlanguage == "pl"){
     document.getElementById("allartjson").innerHTML = languages.pl[0].allart;
     document.getElementById("morejson").innerHTML = languages.pl[0].more;
     document.getElementById("languagejson").innerHTML = languages.pl[0].language;
-    for (var i = elements.length-1; i > 0 ; i--) document.getElementById(`desc${i}json`).innerHTML = languages.pl[0][`desc${i}`];
-    document.getElementById("descfeatured").innerHTML = languages.pl[0][`desc${elements.length-1}`];
+    for (var i = elements.length; i > 0 ; i--) document.getElementById(`desc${i}json`).innerHTML = languages.pl[0][`desc${i}`];
 }
 
 var moreopen = Boolean(false);
@@ -59,3 +57,7 @@ function more(){
         moreopen = false;
     }
 }
+
+const last = document.getElementsByClassName("last")[0];
+const clone = last.cloneNode(true);
+document.getElementsByClassName("featuredFrame")[0].appendChild(clone);
